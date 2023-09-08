@@ -94,13 +94,13 @@ const config = defineUserConfig({
   locales: custom?.config?.app?.locales ?? {
     '/': {
       lang: 'en-US',
-      title: 'VP Starter',
+      title: '更新云英文名字',
       description: 'A VuePress2 Template for building documentation websites.'
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'VP Starter',
-      description: 'Vuepress2 脚手架, 用于构建文档网站.'
+      title: '更新云',
+      description: '更新云使用指南'
     }
   },
   pagePatterns: custom?.config.app?.pagePatterns ?? ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
@@ -222,7 +222,7 @@ const config = defineUserConfig({
         selectLanguageAriaLabel: '选择语言',
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
-        contributorsText: '贡献者',
+        contributorsText: '贡献者', 
         // custom containers
         tip: '提示',
         warning: '注意',

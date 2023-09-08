@@ -8,20 +8,15 @@ export const navbarEn: NavbarConfig = [
   },
   {
     text: 'Guide',
-    link: '/guide/getting-started.md'
+    link: '/zh/guide/communicate/gengxin.md'
   },
   {
     text: `v${version}`,
     children: [
       {
         text: 'CHANGELOG',
-        link: 'https://github.com/funnyzak/vuepress-starter/blob/main/CHANGELOG.md'
+        link: 'http://www.website.mazihub.com/'
       }
     ]
-  },
-  {
-    text: 'Donate',
-    link: 'https://github.com/funnyzak/funnyzak/blob/main/pro/Coffee.md',
-    target: '_blank'
   }
 ]

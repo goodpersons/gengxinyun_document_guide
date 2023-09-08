@@ -5,7 +5,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 <template>
   <ParentLayout>
     <template #page-bottom>
-      <div class="footer">MIT Licensed | Copyright © 2022 Funnyzak</div>
+      <div class="footer">© 2021-2023 | Designed and coded with TA Cloud |</div>
     </template>
   </ParentLayout>
 </template>
